@@ -68,14 +68,14 @@
 			</div><!-- /.col-sm-6 -->
 
 			<div class="col-sm-3">
-				<ul class="navbar-nav justify-content-sm-end">
-					<li>
-						<a href="/Proyecto-IR/login.jsp">Login
-							<i class="ico-arrow-orange d-none d-md-inline-block d-lg-inline-block d-xl-inline-block"></i>
-							<i class="ico-arrow-large d-inline-block d-md-none d-lg-none d-xl-none"></i>
-						</a>
-					</li>
-				</ul>
+                            <ul class="navbar-nav justify-content-sm-end">
+                                <li>
+                                    <a href="/Proyecto-IR/login.jsp">Login
+                                        <i class="ico-arrow-orange d-none d-md-inline-block d-lg-inline-block d-xl-inline-block"></i>
+                                        <i class="ico-arrow-large d-inline-block d-md-none d-lg-none d-xl-none"></i>
+                                    </a>
+                                </li>
+                            </ul>
 			</div><!-- /.col-sm-3 -->
 		</div>
 	</div><!-- /.container -->

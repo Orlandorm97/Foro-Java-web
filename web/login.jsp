@@ -52,17 +52,20 @@
                                     <div class="signup-form__input"> 
                                         <input type="text" name="f_usuario" placeholder="tu usuario" required> 
                                     </div>
-                                    <div class="signup-form__input"> 
+                                    <div class="signup-form__input" "> 
                                         <input type="password" id="password" name="f_clave" placeholder="tu clave" required> 
                                     </div> 
-                         
+                                        
                                     <input id="signup-form__button" type="submit" class="signup-form__button" value="Iniciar Sesion">
+                                    <br>
                                     <input type="hidden" name="f_accion" value="R" size="15" />
                                     <input type="hidden" name="f_idusuario" value="" size="15" />
+                                    <th><a href="registro.jsp" id="signup-form__button" type="submit" class="signup-form__button" >Registrarse</a></th>
+
                                     <%
                                         s_error = request.getParameter("f_error");
                                         if (s_error != null) {
-                                            out.print(s_idusuario);
+                                            //out.print(s_idusuario);
                                     %>
                                     <h5 id="signup-form__title" class="signup-form__title">
                                                    

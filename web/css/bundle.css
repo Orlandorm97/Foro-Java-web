@@ -3174,8 +3174,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
+  color: white;
   border-color: #28a745;
+  background-color: #28a745
 }
 
 .btn-outline-success:hover {
@@ -3270,8 +3271,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger {
-  color: #dc3545;
+  color: #white;
   border-color: #dc3545;
+  background: #dc3545;
 }
 
 .btn-outline-danger:hover {
