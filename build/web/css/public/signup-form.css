@@ -1,0 +1,108 @@
+.signup-form {
+    width: 100%;
+    max-width: 47rem;
+    background-color: var(--color-signup-background);
+    box-shadow: 0px 24px 104px rgba(0, 131, 188, 0.1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    position: relative;
+    min-height: 306px;
+}
+
+.signup-form__title {
+    margin-bottom: 1.6rem;
+    font-size: 2.4rem;
+    display: block;
+    align-self: start;
+    font-weight: normal;
+}
+
+.signup-form__input {
+    width: 100%;
+    height: 5.6rem;
+    margin-bottom: 1.2rem;
+    background: #F3FCFF;
+    border: 1px solid #D7F0F7;
+    box-sizing: border-box;
+    border-radius: 8px; 
+    position: relative;
+}
+
+.signup-form__input > input, select {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 1.6rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 8px; 
+    color: var(--color-input-1);
+}
+
+.signup-form__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(97.38deg, #1F46C4 0%, #0E1F98 100%);
+    box-shadow: 0px 16px 32px rgba(0, 61, 181, 0.2);
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-family: "Tajawal";
+    letter-spacing: 1px;
+    vertical-align: center;
+    font-weight: 700;
+    align-items: center;
+    padding: 6px 0 0;
+    transition: all .3s;
+}
+
+.signup-form__subtitle {
+    font-size: 20px;
+    line-height: 3.6rem;
+    color: #0F0C4A;
+}
+
+.signup-form__button:hover {
+    background: linear-gradient(97.38deg, #3158D7 0%, #182AA9 100%);
+}
+
+.signup-form__button:active {
+    background: linear-gradient(97.38deg, #1239B7 0%, #061895 100%);
+    box-shadow: unset;
+}
+
+.signup-form__background {
+    position: absolute;
+    z-index: -1000;
+    top: 10%;
+    left: 10%;
+    overflow: visible;
+}
+
+@media only screen and (max-width: 470px) {
+    .signup-form {
+        padding: unset; 
+        background-color: unset;
+        padding: 2.8rem 0;
+        min-height: 223px;
+    }
+
+    .signup-form {
+        box-shadow: unset;
+    }
+
+    .signup-form__title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+}
